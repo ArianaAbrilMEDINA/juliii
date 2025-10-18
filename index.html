@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Licenciatura en Publicidad - UM</title>
+  <link rel="stylesheet" href="s.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="career-tag">
+  Licenciatura en Publicidad
+</div>
+
+<div id="barraProgreso" class="progress" style="height: 25px; margin-bottom:15px;">
+  <div id="progresoInterno" class="progress-bar bg-success" role="progressbar" style="width: 0%;">
+    0%
+  </div>
+</div>
+
+<!-- PRIMER AÑO -->
+<div class="career-tag-1 text-center">
+  PRIMER AÑO
+</div>
+<div id="primerContainer" style="margin-top: 1rem;">
+  <div class="materias-wrapper d-flex justify-content-center flex-wrap">
+    <button class="materia-btn mb-2 btn-materia" data-id="4156">Introducción a la Publicidad</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="636">Teoría y Medios de Comunicación Social</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="10552">Historia Económica y Social Argentina y Mundial</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4185">Taller de Informática Aplicada al Diseño Publicitario</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="629">Psicología Social</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="20501">Inglés I</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4165" data-depends-on="4156">Campañas Publicitarias</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4186">Semiótica Publicitaria</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4187">Taller de Fotografía Publicitaria</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4188">Taller de Publicidad Radial</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="692">Sociología y Estudio de la Opinión Pública</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4189">Taller de Publicidad Gráfica</button>
+  </div>
+</div>
+
+<!-- SEGUNDO AÑO -->
+<div class="career-tag-1 text-center">
+  SEGUNDO AÑO
+</div>
+<div id="segundoContainer" style="margin-top: 1rem;">
+  <div class="materias-wrapper d-flex justify-content-center flex-wrap">
+    <button class="materia-btn mb-2 btn-materia" data-id="4151" data-depends-on="4165">Creatividad Publicitaria</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4190">Taller de Publicidad Digital y Contenidos Interactivos</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4191">Taller de Publicidad Televisiva</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4192">Dirección y Gestión de Cuentas</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4193" data-depends-on="4186">Taller de Redacción Creativa Aplicada</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="10229">Comercialización Estratégica</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4194" data-depends-on="4151">Taller de Dirección de Arte Publicitario</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4195" data-depends-on="4165,4191">Estrategia y Planificación de Medios Publicitarios</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4196">Taller de Publicidad Exterior</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4197" data-depends-on="4151,4156,4165,4185,4187,4188,4190,4191,4192,4193,4194">Práctica Profesional</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="20502" data-depends-on="20501">Inglés II</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="913">Ética y Deontología</button>
+  </div>
+</div>
+
+<!-- TERCER AÑO -->
+<div class="career-tag-1 text-center">
+  TERCER AÑO
+</div>
+<div id="tercerContainer" style="margin-top: 1rem;">
+  <div class="materias-wrapper d-flex justify-content-center flex-wrap">
+    <button class="materia-btn mb-2 btn-materia" data-id="10411">Investigación de Mercado</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4198">Técnicas de Promoción y Activación de Marca</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4199" data-depends-on="629,4194">Persuasión y Discurso Publicitario</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="634">Metodología y Técnicas de Investigación Social</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4200" data-depends-on="4196">Estrategias de Comunicación Integral</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="10735">Normativa Jurídica de la Práctica Publicitaria</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4201" data-depends-on="10411">Investigación Publicitaria</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="20503" data-depends-on="20502">Inglés III</button>
+  </div>
+</div>
+
+<!-- CUARTO AÑO -->
+<div class="career-tag-1 text-center">
+  CUARTO AÑO
+</div>
+<div id="cuartoContainer" style="margin-top: 1rem;">
+  <div class="materias-wrapper d-flex justify-content-center flex-wrap">
+    <button class="materia-btn mb-2 btn-materia" data-id="631" >Administración de las Organizaciones</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4202" data-depends-on="4200">Publicidad Política</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="20504" data-depends-on="20503">Inglés IV</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="666">Oratoria</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4203">Planificación y Gestión de Negocios Publicitarios</button>
+    <button class="materia-btn mb-2 btn-materia" data-id="4204" data-depends-on="634,4198,4201,4202">Proyecto Final de Carrera</button>
+  </div>
+</div>
+
+<!-- ELECTIVAS -->
+<div class="career-tag-1 text-center">
+  MATERIAS ELECTIVAS (18 CRÉDITOS)
+</div>
+<div id="electivasContainer" style="margin-top: 1rem;">
+  <div class="materias-wrapper d-flex justify-content-center flex-wrap">
+    <button class="materia-btn mb-2 btn-materia optativa" data-id="10401">Economía</button>
+    <button class="materia-btn mb-2 btn-materia optativa" data-id="633">Estadística Social</button>
+    <button class="materia-btn mb-2 btn-materia optativa" data-id="691">Teoría y Práctica de la Producción de Textos</button>
+    <button class="materia-btn mb-2 btn-materia optativa" data-id="694">Gestión en Redes Sociales</button>
+    <button class="materia-btn mb-2 btn-materia optativa" data-id="696">Sostenibilidad y Responsabilidad Social Empresaria Aplicada</button>
+    <button class="materia-btn mb-2 btn-materia optativa" data-id="671">Imagen Institucional</button>
+    <button class="materia-btn mb-2 btn-materia optativa" data-id="627">Estructura y Dinámica de las Organizaciones</button>
+    <button class="materia-btn mb-2 btn-materia optativa" data-id="10111">Gerencia y Liderazgo</button>
+  </div>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
